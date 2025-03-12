@@ -2,15 +2,22 @@ name: revenuecat_subscriber
 description: A Flutter package for handling RevenueCat subscriptions with an optional UI card.
 version: 1.0.0
 homepage: https://github.com/lakiarANIT/revenuecat_subscriber
+repository: https://github.com/lakiarANIT/revenuecat_subscriber
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.12.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  purchases_flutter: ^6.0.0 
+  purchases_flutter: ^6.0.0  # Consider ^8.6.0 if tested
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+topics:
+  - revenuecat
+  - subscriptions
+  - flutter
+  - in-app-purchase
